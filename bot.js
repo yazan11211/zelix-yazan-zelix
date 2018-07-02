@@ -29,6 +29,17 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
 });
 
 client.login(process.env.BOT_TOKEN);
+
+
+
+
+
+
+
+
+
+
+
 var prefix = "z-";
 client.on('message', message => {
   if (message.author.bot) return;
